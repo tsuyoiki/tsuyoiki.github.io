@@ -20,6 +20,6 @@
  
 </pre>
 
-[About](about.html)
+[About](about.markdown)
 
 
