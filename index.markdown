@@ -5,4 +5,4 @@
 layout: home
 ---
 
-hello creatures of the internets
+hello there
