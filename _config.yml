@@ -28,7 +28,7 @@ twitter_username: tsuyoiki
 github_username:  tsuyoiki
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
