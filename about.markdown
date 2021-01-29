@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-here are some fun facts about me: 
+This is a collection of the notes that I'm taking while learning digital forensics. 
