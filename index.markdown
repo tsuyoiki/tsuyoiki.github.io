@@ -1,8 +1,7 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
----
+[Blog](_posts)
 
-hello creatures of the internets
+[About](about.markdown)
+
+[CV](cv.md)
+
