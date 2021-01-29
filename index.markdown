@@ -5,4 +5,9 @@
 layout: home
 ---
 
-hello there
+hello, you found my github page
+
+[Blog](_posts)
+[About](about.markdown)
+[CV](cv.md)
+
