@@ -51,5 +51,3 @@ The first two modes of operation are user mode and kernel (privileged) mode. Mul
 
 Assuming that through a system call a process can obtain current time, you can start a process and set a timer for later, then let the process sleep. When the process is awakened with an interrupt it will update it’s local state. This can continue as long as interrupts are occurring. 
 
-[Back](tsuyoiki.github.io/index.md)
-
