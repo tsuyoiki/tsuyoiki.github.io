@@ -20,6 +20,7 @@
  
 </pre>
 
+[Blog](_posts/2021-01-30-FirstPost.md)
 [About](about.markdown)
 
 
