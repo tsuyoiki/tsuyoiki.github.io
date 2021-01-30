@@ -2,9 +2,9 @@
 
 1.1 What are the three main purposes of an operating system?
 
-1. Efficiently manage the  computer’s resources (memory, CPU, ect)
-2. Make the system easy to understand and use for people
-3. Execute programs conveniently and quickly 
+>- Efficiently manage the  computer’s resources (memory, CPU, ect)
+>- Make the system easy to understand and use for people
+>- Execute programs conveniently and quickly 
 
 1.2 We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 
@@ -33,11 +33,11 @@ f. Modify entries in device-status table.
 g. Switch from user to kernel mode. 
 h. Access I/O device.
 
-1. Set value of timer. It is an important component of a system and misconfiguring it will affect everything. 
-2. Clear memory. If the user is committing crime with the help of a computer and clears the memory afterwards it might be hard to hold the user accountable. 
-3. Turn off interrupts. Interrupts are crucial to the correct functionality of the system. Turning them off should not be allowed to any user.
-4. Modify entries in device-status table. Rerouting traffic should obviously be privileged.
-5. Access I/O device. If access to I/O is allowed to a malicious process it can seriously damage the system. Thus access to I/O is privileged and can only be allowed via a system call from a user. 
+>- Set value of timer. It is an important component of a system and misconfiguring it will affect everything. 
+>- Clear memory. If the user is committing crime with the help of a computer and clears the memory afterwards it might be hard to hold the user accountable. 
+>- Turn off interrupts. Interrupts are crucial to the correct functionality of the system. Turning them off should not be allowed to any user.
+>- Modify entries in device-status table. Rerouting traffic should obviously be privileged.
+>- Access I/O device. If access to I/O is allowed to a malicious process it can seriously damage the system. Thus access to I/O is privileged and can only be allowed via a system call from a user. 
 
 1.7 Some early computers protected the operating system by placing it in a memory partition that could not be modified by either the user job or the operating system itself. Describe two difficulties that you think could arise with such a scheme.
 
@@ -51,5 +51,5 @@ The first two modes of operation are user mode and kernel (privileged) mode. Mul
 
 Assuming that through a system call a process can obtain current time, you can start a process and set a timer for later, then let the process sleep. When the process is awakened with an interrupt it will update it’s local state. This can continue as long as interrupts are occurring. 
 
-[Back](index.md)
+[Back](tsuyoiki.github.io/index.md)
 
