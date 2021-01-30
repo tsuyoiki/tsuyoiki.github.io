@@ -219,3 +219,5 @@ Because they were developed for desktop, not mobile devices. Google developed a 
 ##### 2.23 The experimental Synthesis operating system has an assembler incorporated in the kernel. To optimize system-call performance, the kernel assembles routines within kernel space to minimize the path that the system call must take through the kernel. This approach is the antithesis of the layered approach, in which the path through the kernel is extended to make building the operating system easier. Discuss the pros and cons of the Synthesis approach to kernel design and system-performance optimization.
 
 The performance of Synthesis is really impressive due to fast communication. The problem is that it is difficult to debug problems within the kernel due to fluidity of the code, and a new compiler must be written for each architecture making the system hard to port. 
+
+[Back](index.md)
