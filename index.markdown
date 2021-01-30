@@ -20,7 +20,7 @@
  
 </pre>
 
-[Blog](_posts/Operating System Concepts/2021-01-30-OSC-Chapter1.md)
+[Blog](_posts/)
 
 [About](about.markdown)
 
