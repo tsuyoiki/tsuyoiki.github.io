@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Operating System Concepts - Chapter 1"
+date:   2021-01-30
+categories: operating systems
+---
+
 ### Chapter 1 - Introduction
 
 1.1 What are the three main purposes of an operating system?
