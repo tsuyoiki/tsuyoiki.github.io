@@ -220,4 +220,4 @@ Because they were developed for desktop, not mobile devices. Google developed a 
 
 The performance of Synthesis is really impressive due to fast communication. The problem is that it is difficult to debug problems within the kernel due to fluidity of the code, and a new compiler must be written for each architecture making the system hard to port. 
 
-[Back](tsuyoiki.github.io/index.md)
+
