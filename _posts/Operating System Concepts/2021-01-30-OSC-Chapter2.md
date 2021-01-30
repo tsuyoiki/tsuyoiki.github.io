@@ -4,45 +4,45 @@ We can view an operating system from several vantage points. One view focuses on
 
 #### OS services designed to help the user:
 
-1. User interface (UI). Most commonly a graphical UI is used (GUI), touch-screen interfaces are used on mobile systems, command-line interface is another option. 
-2. Program execution. Loading the program into memory and running it, the program must be able to end normally (or abnormally if there is an error)
-3. I/O operations.
-4. File-system manipulation. Programs need to read, write, create, delete, search for files and directories and list information. Some OSs include permissions management among other features as well. 
-5. Communications. Processes need to be able to communicate with each other and exchange information. Communications may be implemented through a shared memory (read and write to a section of memory that is shared between the processes) or message passing (packets of information are moved between the processes by the OS).
-6. Error detection. The OS must detect and correct errors. It must be able to determine the type of error that has occurred, take the necessary steps to correct it, halt the system if necessary. 
+>1. User interface (UI). Most commonly a graphical UI is used (GUI), touch-screen interfaces are used on mobile systems, command-line interface is another option. 
+>2. Program execution. Loading the program into memory and running it, the program must be able to end normally (or abnormally if there is an error)
+>3. I/O operations.
+>4. File-system manipulation. Programs need to read, write, create, delete, search for files and directories and list information. Some OSs include permissions management among other features as well. 
+>5. Communications. Processes need to be able to communicate with each other and exchange information. Communications may be implemented through a shared memory (read and write to a section of memory that is shared between the processes) or message passing (packets of information are moved between the processes by the OS).
+>6. Error detection. The OS must detect and correct errors. It must be able to determine the type of error that has occurred, take the necessary steps to correct it, halt the system if necessary. 
 
 #### OS services designed to make sure it is being used efficiently:
 
-1. Resource allocation. With many processes running simultaneously the OS will determine the best way to allocate resources to each of them. 
-2. Logging. Keeping track of the usage statistics. This information can be really valuable to system administrators who would like to reconfigure the system and make it more efficient. 
-3. Protection and security. One process should not interfere with another process or the OS. Protection ensures that access to system resources is controlled, users are authenticating themselves, and the OS is keeping track of invalid login attempts. 
+>1. Resource allocation. With many processes running simultaneously the OS will determine the best way to allocate resources to each of them. 
+>2. Logging. Keeping track of the usage statistics. This information can be really valuable to system administrators who would like to reconfigure the system and make it more efficient. 
+>3. Protection and security. One process should not interfere with another process or the OS. Protection ensures that access to system resources is controlled, users are authenticating themselves, and the OS is keeping track of invalid login attempts. 
 
 #### Users can interface with the OS in a few ways:
 
-1. Command interpreters. (terminal in Kali Linux for example uses a command interpreter)
-2. Graphical User Interface (GUI). (Windows, Apple)
-3. Touch-Screen Interface. (Most mobile systems)
+>1. Command interpreters. (terminal in Kali Linux for example uses a command interpreter)
+>2. Graphical User Interface (GUI). (Windows, Apple)
+>3. Touch-Screen Interface. (Most mobile systems)
 
 #### System calls 
 provide an interface to the services made available by the OS. Most system calls are accessed by an Application Program Interface (API) such as Win32, POSIX, Java. There are six major categories of system calls:
 
-1. Process control
-2. File management
-3. Device management
-4. Information maintenance 
-5. Communications
-6. Protection
+>1. Process control
+>2. File management
+>3. Device management
+>4. Information maintenance 
+>5. Communications
+>6. Protection
 
 #### System services (or system utilities) 
 provide an environment for program development and execution. Some of them are quite simple - user interfaces to system calls, some are more complex. They include:
 
-1. File management (access and manipulate files and directories)
-2. Status information (asking the system for the date and time, amount of free memory, logging, debugging information, ect)
-3. File modification (create and modify contents of files)
-4. Programming-language support (compilers, debuggers, assemblers for common programming languages such as C are often provided with the OS or available to easily download)
-5. Program loading and execution (When the program is ready it must be loaded into memory for execution) 
-6. Communications (these allow creating virtual connections between processes, users, and computer systems)
-7. Background services (constantly running system-program processes known as services, subsystems or daemons. For example, process schedulers that start a process at a specific time, or a system error monitoring service)
+>1. File management (access and manipulate files and directories)
+>2. Status information (asking the system for the date and time, amount of free memory, logging, debugging information, ect)
+>3. File modification (create and modify contents of files)
+>4. Programming-language support (compilers, debuggers, assemblers for common programming languages such as C are often provided with the OS or available to easily download)
+>5. Program loading and execution (When the program is ready it must be loaded into memory for execution) 
+>6. Communications (these allow creating virtual connections between processes, users, and computer systems)
+>7. Background services (constantly running system-program processes known as services, subsystems or daemons. For example, process schedulers that start a process at a specific time, or a system error monitoring service)
 
 
 #### Linkers and loaders
@@ -98,11 +98,11 @@ The main advantage is simplicity of construction and debugging.The main disadvan
 
 OS services designed to create convenience for the user are: 
  
-1. Program execution. Loading the program into memory and running it. A user level program can’t be trusted to allocate CPU resources properly.
-2. I/O operations. User level programs can’t be responsible for only accessing the devices they should have access to, so it is managed by the OS. 
-3. File-system manipulation. Programs need to read, write, create, delete, search for files and directories and list information. Some OSs include permissions management among other features as well. User programs can’t handle permission management thus this is also managed by the OS.
-4. Communications. Processes need to be able to communicate with each other and exchange information. Communications may be implemented through a shared memory (read and write to a section of memory that is shared between the processes) or message passing (packets of information are moved between the processes by the OS). User programs might not coordinate packets destined to a network device or know what to do with packets coming to or from a different process so the OS takes care of that also.
-5. Error detection. The OS must detect and correct errors. It must be able to determine the type of error that has occurred, take the necessary steps to correct it, halt the system if necessary. Errors may be process independent such as corruption of data on a disk. Therefore the OS must take care of these errors.
+>1. Program execution. Loading the program into memory and running it. A user level program can’t be trusted to allocate CPU resources properly.
+>2. I/O operations. User level programs can’t be responsible for only accessing the devices they should have access to, so it is managed by the OS. 
+>3. File-system manipulation. Programs need to read, write, create, delete, search for files and directories and list information. Some OSs include permissions management among other features as well. User programs can’t handle permission management thus this is also managed by the OS.
+>4. Communications. Processes need to be able to communicate with each other and exchange information. Communications may be implemented through a shared memory (read and write to a section of memory that is shared between the processes) or message passing (packets of information are moved between the processes by the OS). User programs might not coordinate packets destined to a network device or know what to do with packets coming to or from a different process so the OS takes care of that also.
+>5. Error detection. The OS must detect and correct errors. It must be able to determine the type of error that has occurred, take the necessary steps to correct it, halt the system if necessary. Errors may be process independent such as corruption of data on a disk. Therefore the OS must take care of these errors.
 
 ##### 2.7 Why do some systems store the operating system in firmware, while others store it on disk?
 
@@ -143,8 +143,8 @@ AOT compilation allows more efficient application execution as well as reduced p
 
 IPC is a mechanism that allows the processes to communicate with each other and synchronize their actions. The two models are:
 
-- Memory sharing
-- Message passing
+>1. Memory sharing
+>2. Message passing
 
 Memory sharing strengths and weaknesses:
 
@@ -220,4 +220,4 @@ Because they were developed for desktop, not mobile devices. Google developed a 
 
 The performance of Synthesis is really impressive due to fast communication. The problem is that it is difficult to debug problems within the kernel due to fluidity of the code, and a new compiler must be written for each architecture making the system hard to port. 
 
-[Back](index.md)
+[Back](tsuyoiki.github.io/index.md)
